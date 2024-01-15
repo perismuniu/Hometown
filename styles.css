@@ -127,3 +127,7 @@ h4 {
 li {
    list-style: none;
 }
+
+li:hover {
+    font-size: larger;
+}
