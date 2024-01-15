@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hometown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/Nairobi.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 500px;
+    border: none;
+    color: #F1FAEE;
+    text-shadow: 5px 5px 10px black;
+}
+
+.hometown:hover {
+    background-image: url("images/wildlife.webp");
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1FAEE;
+    height: 350px;
+    border: none;
+    padding: 0px 10px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activities h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #404E7C;
+}
+
+.p {
+    color:#404E7C;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.activities-list div {
+    margin-left: 20px;
+}
+
+.activities-list p {
+    font-weight: 700px;
+    color: #404E7C;
+}
+
+
+.card-image {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.business-card {
+    display: flex;
+    width: 400px;
+    margin: 20px auto;
+    background: #A8DADC;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: 7px solid #232a35;
+    border-radius: 10px;
+}
+
+.business-card-text {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    color:#404E7C;
+}
+
+.business-card-text p {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #232a35;
+    color: white;
+    padding: 8px 40px;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+li {
+   list-style: none;
+}
