@@ -120,6 +120,10 @@ footer {
 
 }
 
+h4 {
+    margin-bottom: 10px;
+}
+
 li {
    list-style: none;
 }
